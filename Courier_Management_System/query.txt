@@ -1,0 +1,19 @@
+// CREATE COURIER_TBL
+
+CREATE TABLE COURIER_TBL (
+    Courier_ID VARCHAR2(12) PRIMARY KEY,
+    Sender_Name VARCHAR2(50) NOT NULL,
+    Receiver_Name VARCHAR2(50) NOT NULL,
+    Courier_Item VARCHAR2(50) NOT NULL,
+    Ship_Date DATE NOT NULL,
+    Delivery_Date DATE,
+    Status VARCHAR2(20),
+    Remarks VARCHAR2(100)
+);
+
+//Sequence
+Create sequence Courier_seq
+		START WITH 10
+		MINVALUE 10
+		MAXVALUE 99
+		INCREMENT BY 1;
