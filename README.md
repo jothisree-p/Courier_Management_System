@@ -1,6 +1,6 @@
 Courier Management System
 
-Project Overview
+Project Overview:
 
 The Courier Management System is a Java web application developed using JSP, Servlets, JDBC, and Oracle DB.
 It allows users to:
@@ -9,7 +9,7 @@ View a specific courier record
 View all courier records
 This project is built as per CPC assessment specifications.
 
-Technologies Used
+Technologies Used:
 
 Java (JDK 8+)
 JSP & Servlets (Jakarta / Tomcat)
@@ -40,7 +40,7 @@ Shows message if not found
 Displays all records in displayAllCouriers.jsp
 Shows message if no data exists
 
-How to Run
+How to Run:
 
 Import project into Eclipse / IntelliJ
 Configure Tomcat Server
@@ -49,7 +49,7 @@ Update DBUtil with your DB credentials
 Run the project
 Open: http://localhost:8080/Courier_Management_System/menu.html
 
-Outputs
+Outputs:
 
 <img width="690" height="313" alt="image" src="https://github.com/user-attachments/assets/a446069e-868a-4049-9343-3a6f4f813b9e" />
 
